@@ -1,0 +1,30 @@
+@import "templatecolours.css";
+
+body {
+
+    background: grey;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+  background-color: green;
+}
+
+main {
+  background-color: blue;
+}
+
+section {
+  background-color: orange;
+}
+
+article {
+  background-color: purple;
+}
+footer{
+    background-color: blue;
+}
+
+

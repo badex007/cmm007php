@@ -1,0 +1,41 @@
+/*@import "templatecolours.css";*/
+
+body {
+    background: black;
+
+}
+
+main{
+    background: #fff;
+    margin: 30px;
+
+}
+
+.bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/*
+header {
+  background-color: green;
+}
+
+main {
+  background-color: blue;
+}
+
+section {
+  background-color: orange;
+}
+
+aside {
+  background-color: yellow;
+}
+
+article {
+  background-color: purple;
+}*/
+
+/* Navigation Bar*/

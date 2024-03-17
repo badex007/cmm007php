@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help With Cheese</title>
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+  </head>
+  <body>
+    <!--Header starts here-->
+    <header>
+      <img src="assets/images/chs1.png" alt="cheese" />
+      <h2>The Magical World of Cheese!</h2>
+
+      <!--Navigation starts here-->
+      <nav>
+        <ul>
+          <li><a href="#" id="">Home Page</a></li>
+          <li><a href="#" id="">The History of Cheese</a></li>
+          <li><a href="" id="">My Favourite Cheese</a></li>
+          <li><a href="" id="">The Best Cheese Jokes</a></li>
+          <li><a href="" id="">Help With Cheese</a></li>
+        </ul>
+      </nav>
+      <!--Nav ends here-->
+    </header>
+    <!--Header ends-->
+
+    <!--Main starts-->
+    <main>
+      <section>
+        <h1>Help With Cheese</h1>
+        <form>
+          <fieldset>
+            <legend>Fill the Form Below</legend>
+            <p>
+              <label>Name</label>
+              <input type="text" id="" name="Cname" placeholder="enter name" autofocus required/>
+            </p>
+            <p>
+              <label>email</label>
+              <input type="email" id="" name="mail"  required/>
+            </p>
+            <p>
+              <label>Favourite Cheese</label>
+              <input type="radio" id="" name="feta" value="feta" />
+              <label>Feta</label>
+              <input type="radio" id="" name="gouda" value="gouda" />
+              <label>Gouda</label>
+              <input type="radio" id="" name="other"  value="other"/>
+              <label>Other</label>
+            </p>
+            <p>
+              <label>What is your cheese problem ?</label>
+              <textarea name="address" rows="10" cols="30"></textarea><br />
+              <button type="submit" formaction="https://httpbin.org/post" formmethod="post" > submit</button>
+              <button type="reset">reset</button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <!--main ends-->
+
+    <!--footer starts here-->
+    <footer>
+      <p>(c) The Mice People</p>
+    </footer>
+    <!--fotetr ends-->
+  </body>
+</html>

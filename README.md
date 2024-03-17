@@ -1,2 +1,2 @@
-# cmm007php
-school session for php
+# cmm007
+this is my school first web apllication

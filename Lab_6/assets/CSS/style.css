@@ -1,0 +1,36 @@
+/* @import "/Lab_6/assets/CSS/badcolors.css"; */
+@import "/Lab_6/assets/CSS/fonts.css";
+
+main article img {
+  width: 100%;
+}
+
+/* Header Information */
+header {
+  background-color: #00b6a8;
+}
+
+header h1 {
+  font-weight: 700;
+  font-family: "Righteous", cursive;
+  margin-bottom: 0;
+}
+
+header h2 {
+  margin-top: 0;
+}
+
+/*Home Page - Exeperiment styles*/
+#experimentImage {
+  margin: 6px 0 3px 0;
+  width: 100%;
+}
+
+/* styling of footer */
+footer {
+  background-color: #00b6a8;
+}
+
+footer section h3 {
+  margin-top: 10px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="assets/CSS/unsemantic-grid-responsive-tablet.css"
+    />
+
+    <title>Using API</title>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0"
+      nonce="emY2ozk4"
+    ></script>
+    <main>
+      <header>
+        <h1 class="bangers-regular">WELCOME TO MY WEBSITE!!!</h1>
+        <h3>This website is all about me</h3>
+      </header>
+      <section class="grid-container">
+        <div class="grid-66">
+          <h3 class="bangers-regular">
+            Want to see where I work - Its a fun place!
+          </h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8664.239013833494!2d-2.137865!3d57.1189422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488410483d2f0941%3A0x5d8969688e77366a!2sRobert%20Gordon%20University!5e0!3m2!1sen!2suk!4v1708961996351!5m2!1sen!2suk"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <h3 class="bangers-regular">
+            HERE'S A VIDEO OF IT! A FLYING MAN MADE IT
+          </h3>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/kUMe1FH4CHE?si=aTULTB4E0IyC1id5"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="grid-25">
+          <h4>Favourite Tweets</h4>
+          <a
+            class="twitter-timeline"
+            data-height="500"
+            data-theme="dark"
+            href="https://twitter.com/arnill_dev?ref_src=twsrc%5Etfw"
+            >Tweets by arnill_dev</a
+          >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+          <!-- <a
+            class="twitter-timeline"
+            data-theme="dark"
+            href="https://twitter.com/arnill_dev?ref_src=twsrc%5Etfw"
+            >Tweets by arnill_dev</a
+          >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script> -->
+        </div>
+        <div class="grid-25">
+          <h4>Favourite Stories</h4>
+          <div
+            class="fb-page"
+            data-href="https://www.facebook.com/storicalstories"
+            data-tabs="timeline"
+            data-width=""
+            data-height=""
+            data-small-header="false"
+            data-adapt-container-width="true"
+            data-hide-cover="false"
+            data-show-facepile="true"
+          >
+            <blockquote
+              cite="https://www.facebook.com/storicalstories"
+              class="fb-xfbml-parse-ignore"
+            >
+              <a href="https://www.facebook.com/storicalstories">Storical</a>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
