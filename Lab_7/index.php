@@ -12,11 +12,11 @@
     <h1>
         <?php
         echo "Hello World ";
-        echo "Hello,".""."World"."! ";
-        echo 5*7;
+        echo "Hello," . "" . "World" . "! ";
+        echo 5 * 7;
         $myname = "frod";
         $myage = 111;
-        echo " My name is ".$myname."and i am ".$myage;
+        echo " My name is " . $myname . "and i am " . $myage;
         ?>
     </h1>
 
@@ -27,14 +27,31 @@
 
         $name = "Edgar";
 
-        if($name == "Simon"){
+        if ($name == "Simon") {
             print "i know you!";
-        }
-        else{
+        } else {
             print "Who are you?";
         }
 
         ?>
+    </p>
+
+    <p>
+         <?php
+
+            //Asign values to variable
+            $greeting = "Hello!";
+            $day = 15;
+            $month = 2;
+            $year = 2024;
+
+            //display values
+            echo $greeting . " Todays date is " . $day . "-" . $month . "-" . $year;
+
+            //echo  "Welcome" . $name . "<br>" . "your student number: "  . $student_no .  "<br>"  . "Course: " . $course . "<br>" .  "Module name and code: " . $moudle_name . " " . $module_code, 
+
+
+            ?> 
     </p>
 
 </body>
